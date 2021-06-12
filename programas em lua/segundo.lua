@@ -1,0 +1,3 @@
+estaAtivo = false
+
+print(estaAtivo)
