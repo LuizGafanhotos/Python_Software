@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 3\guessing_game\target\debug\guessing_game.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 3\guessing_game\src\main.rs
