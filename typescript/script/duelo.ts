@@ -1,8 +1,17 @@
-const input1 = 41;
-const input2 = 31;
+type Bla = string | undefined;
 
-function sum(a: number, b: number){
-    return a + b
+//never
+function error(): never {
+    throw new Error("error")
 }
-let res = sum(input1,input2);
-console.log(`O valor de ${input1} e ${input2} é ${res}`);
+
+//objetc : objeto
+
+let cart: object;
+
+cart = {
+    key: "fi",
+}
+
+//mensagem
+let mensagem = "Ola prastiranhas"
