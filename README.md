@@ -1,2 +1,2 @@
 # Python_Software
- programas em rust, lua e python estarão aqui
+ programas em rust, lua, typescript e python estarão aqui
