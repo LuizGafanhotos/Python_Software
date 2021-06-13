@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 5\variaveis\target\debug\variaveis.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 5\variaveis\src\main.rs
