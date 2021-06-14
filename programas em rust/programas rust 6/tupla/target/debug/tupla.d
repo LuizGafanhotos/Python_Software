@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 6\tupla\target\debug\tupla.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 6\tupla\src\main.rs
