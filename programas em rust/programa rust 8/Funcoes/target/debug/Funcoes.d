@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programa\ rust\ 8\Funcoes\target\debug\Funcoes.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programa\ rust\ 8\Funcoes\src\main.rs
