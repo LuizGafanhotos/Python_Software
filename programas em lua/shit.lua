@@ -1,7 +1,9 @@
-function somar(n1, n2)
-    print(n1 + n2)
+nome = "Cria Jogo";
+print(nome)
+
+function qualNome(nome)
+    print(nome)
 end
 
-print("----------")
-somar(5,5)
-print("----------")
+qualNome("Alfred")
+print(nome)
