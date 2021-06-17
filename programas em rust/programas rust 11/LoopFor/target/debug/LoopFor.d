@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 11\LoopFor\target\debug\LoopFor.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programas\ rust\ 11\LoopFor\src\main.rs
