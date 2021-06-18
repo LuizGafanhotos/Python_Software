@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programa\ rust\ 12\FOR\target\debug\FOR.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programa\ rust\ 12\FOR\src\main.rs
