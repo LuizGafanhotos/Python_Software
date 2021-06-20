@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programa\ rust\ 13\propriedade\target\debug\propriedade.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\programa\ rust\ 13\propriedade\src\main.rs
