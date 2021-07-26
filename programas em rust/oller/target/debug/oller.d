@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\oller\target\debug\oller.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\oller\src\main.rs
