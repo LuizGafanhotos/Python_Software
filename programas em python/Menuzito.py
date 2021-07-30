@@ -91,4 +91,23 @@ def ListarC():
     for c in carros:
         print(str(p) + " - " + c.nome)
         p += 1
-    os.system()
+    os.system("pause")
+
+ret=Menu()
+while ret < "7":
+    if ret=="1":
+        CriaCarro()
+    elif ret == "2":
+        Informações()
+    elif ret == "3":
+        ExcluirC()
+    elif ret == "4":
+        LigarC()
+    elif ret == "5":
+        DesligarC()
+    elif ret == "6":
+        ListarC()
+    ret=Menu()
+
+os.system("cls") or None
+print("Programa finalizado")
