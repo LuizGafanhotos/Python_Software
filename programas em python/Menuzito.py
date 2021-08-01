@@ -92,6 +92,7 @@ def ListarC():
         print(str(p) + " - " + c.nome)
         p += 1
     os.system("pause")
+<<<<<<< HEAD
 
 ret=Menu()
 while ret < "7":
@@ -111,3 +112,5 @@ while ret < "7":
 
 os.system("cls") or None
 print("Programa finalizado")
+=======
+>>>>>>> Arquivos_python
