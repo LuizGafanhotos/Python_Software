@@ -1,0 +1,12 @@
+{
+    "nome":"Luiz",
+    "time":"nenhum",
+    "vivo": "True",
+    "energia": 100,
+    "mochila": ["pederneira","corda","linha","arame"],
+    "areonave":[
+        {"tipo":"transporte","habilidade":70},
+        {"tipo":"defesa","habilidade":100},
+        {"tipo":"reconhecimento","habilidade":20}
+    ]
+}
