@@ -1,5 +1,5 @@
 nome = "teste.txt"
-file = open("C:/Users/renata/Documents/GitHub/MeuDados/Python_Software/programas em python/ " + nome, "wt")
+file = open("C:/Users/renata/Documents/GitHub/MeuDados/Python_Software/programas em python/" + nome, "at")
 txt = input("Digite algo: ")
 file.write(txt+"\n ")
 

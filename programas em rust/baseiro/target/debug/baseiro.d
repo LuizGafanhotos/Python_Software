@@ -1,0 +1,1 @@
+C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\baseiro\target\debug\baseiro.exe: C:\Users\renata\Documents\GitHub\MeuDados\Python_Software\programas\ em\ rust\baseiro\src\main.rs
