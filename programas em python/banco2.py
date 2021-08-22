@@ -13,13 +13,14 @@ def conector_banco():
     return con
 
 vcon = conector_banco()
-numTelefone = int(input("Digite seu Id de contato: "))
-nome = input("Digite seu nome: ")
-telefone = input("Digite seu telefone: ")
-email = input("Digite seu email: ")
+# numTelefone = int(input("Digite seu Id de contato: "))
+# nome = input("Digite seu nome: ")
+# telefone = input("Digite seu telefone: ")
+# email = input("Digite seu email: ")
 
 
-vsql = f"INSERT INTO tb_contato VALUES ('{numTelefone}','{nome}','{telefone}','{email}');"
+# vsql = f"INSERT INTO tb_contato VALUES ('{numTelefone}','{nome}','{telefone}','{email}');"
+
 def inserir(conexao,sql):
     try:
         c = conexao.cursor()
@@ -29,4 +30,16 @@ def inserir(conexao,sql):
     except Error as ex:
         print(ex)
 
-inserir(vcon,vsql)
+def deletar(conexao,sql):
+    try:
+        c = conexao.cursor()
+        c.execute(sql)
+        conexao.commit()
+    except Error as ex:
+        print(ex)
+    finally:
+        print("Registro deletado")
+vsql = "DELETE FROM tb_contato WHERE N_IDCONTATO=3"
+
+# inserir(vcon,vsql)
+deletar(vcon,vsql)
