@@ -39,7 +39,20 @@ def deletar(conexao,sql):
         print(ex)
     finally:
         print("Registro deletado")
-vsql = "DELETE FROM tb_contato WHERE N_IDCONTATO=3"
+
+def atualizar(conexao, sql):
+    try:
+        c = conexao.cursor()
+        c.execute(sql)
+        conexao.commit()
+    except Error as ex:
+        print(ex)
+    finally:
+        print("Registro atualizado")
+
+# vsql = "DELETE FROM tb_contato WHERE N_IDCONTATO=3"
+vsql = "UPDATE tb_contato SET T_NOMECONTATO='Bruno' WHERE N_IDCONTATO=1"
 
 # inserir(vcon,vsql)
-deletar(vcon,vsql)
+# deletar(vcon,vsql)
+atualizar(vcon,vsql)
