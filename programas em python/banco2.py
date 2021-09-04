@@ -50,9 +50,20 @@ def atualizar(conexao, sql):
     finally:
         print("Registro atualizado")
 
+
+def consulta(conexao, sql):
+    c = conexao.cursor()
+    c.execute(sql)
+    resultado = c.fetchall()
+    return resultado
+
+vsql = "SELECT * FROM tb_contato"
 # vsql = "DELETE FROM tb_contato WHERE N_IDCONTATO=3"
-vsql = "UPDATE tb_contato SET T_NOMECONTATO='Bruno' WHERE N_IDCONTATO=1"
+# vsql = "UPDATE tb_contato SET T_NOMECONTATO='Bruno' WHERE N_IDCONTATO=1"
 
 # inserir(vcon,vsql)
 # deletar(vcon,vsql)
-atualizar(vcon,vsql)
+# atualizar(vcon,vsql)
+res = consulta(vcon,vsql)
+for r in res:
+    print(r)
