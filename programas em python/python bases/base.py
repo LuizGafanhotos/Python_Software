@@ -14,6 +14,24 @@ def conection():
 
 vcon = conection()
 
+def query(conexao,sql):
+    try:
+        c = conexao.cursor()
+        c.execute(sql)
+        conexao.commit()
+    except Error as ex:
+        print(ex)
+    finally:
+        print("Operação realizada com bronha com sucesso")
+        conexao.close()
+
+def consultar(conexao,sql):
+    c = conexao.cursor()
+    c.execute(sql)
+    res = c.fetchall()
+    #conexao.close()
+    return res
+
 def menu_delicia():
     options = ("Inserir Novo registro", 
                 "Deletar Registro", 
@@ -30,7 +48,14 @@ def menu_delicia():
         cont2 += 1
 
 def menuInserir():
-    print("imprime meu pau aqui")
+    os.system("cls")
+    vid = int(input("Digite um id: "))
+    vnome = input("Digite o nome: ")
+    vtelefone = input("Digite o telefone: ")
+    vemail = input("Digite o email: ")
+
+    vsql = f"INSERT INTO tb_contato2 VALUES ('{vid}', '{vnome}', '{vtelefone}', '{vemail}')"
+    query(vcon,vsql)
 
 def menuDeletar():
     print("oi 2.0")
@@ -53,16 +78,12 @@ while opc != 6:
     opc = int(input("Digite uma opcao: "))
     if opc == 1:
         menuInserir()
-        pass
     elif opc == 2:
         menuDeletar()
-        pass
     elif opc == 3:
         menuAtualizar()
-        pass
     elif opc == 4:
         menuConsultarID()
-        pass
     elif opc == 5:
         menuConsultarNOMES()
         
@@ -74,4 +95,6 @@ while opc != 6:
         print("opcao inválida")
         os.system("pause")
 
+
+vcon.close()
 os.system("pause")
