@@ -84,11 +84,37 @@ def menuAtualizar():
 
 
 def menuConsultarID():
-    print("oi")
-
+    os.system("cls")
+    vsql = "SELECT * FROM tb_contato2"
+    res=consultar(vcon,vsql)
+    vlim = 10
+    vcont = 0
+    for r in res:
+        print("ID:{0:_<3} Nome: {1:_<30} Telefone: {2:_<14} E-mail: {3:_<30}".format(r[0],r[1],r[2],r[3]))
+        vcont += 1
+        if(vcont >= vlim):
+            vcont=0
+            os.system("pause")
+            os.system("cls")
+    print("Fim da lista")
+    os.system("pause")
 
 def menuConsultarNOMES():
-    print("OI men ")
+    os.system("cls")
+    vnome = input("Digite o nome: ")
+    vsql = "SELECT * FROM tb_contato2 WHERE T_NOMECONTATO LIKE '%"+vnome+"%'"
+    res=consultar(vcon,vsql)
+    vlim = 10
+    vcont = 0
+    for r in res:
+        print("ID:{0:_<3} Nome: {1:_<30} Telefone: {2:_<14} E-mail: {3:_<30}".format(r[0],r[1],r[2],r[3]))
+        vcont += 1
+        if(vcont >= vlim):
+            vcont=0
+            os.system("pause")
+            os.system("cls")
+    print("Fim da lista")
+    os.system("pause")
 
 
 opc = 0
