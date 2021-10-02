@@ -1,7 +1,9 @@
 from tkinter import *
 
+
 def impDados():
-    print("oi")
+    print("Nome: %s" % vnome)
+    print("Telelfone: %s" % vfone)
 
 app = Tk()
 app.title("Titulo")
