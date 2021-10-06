@@ -1,5 +1,6 @@
 from tkinter import *
 import os
+import tk3
 
 c = os.path.dirname(__file__)
 nomeArquivo = c+"\\nomes.txt"
