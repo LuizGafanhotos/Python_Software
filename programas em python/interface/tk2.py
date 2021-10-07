@@ -28,5 +28,13 @@ Label(app,text="Telefone",background="#fff", foreground="#009", anchor=W).place(
 vfone = Entry(app)
 vfone.place(x=10,y=80,width=200, height=20)
 
+Label(app,text="E-mail",background="#fff", foreground="#009", anchor=W).place(x=10,y=70, width=100, height=20)
+vemail = Entry(app)
+vemail.place(x=10,y=180,width=300,height=80)
+
+Label(app,text="OBS", background="#fff", foreground="#009", anchor=W).place(x=10, y=90, width=100,height=20)
+vobs = Text(app)
+vobs.place(x=10,y=180,width=300,height=80)
+
 Button(app,text="Imprimir",command=impDados).place(x=10,y=270,width=100,height=20)
 app.mainloop()
